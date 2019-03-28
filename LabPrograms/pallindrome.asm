@@ -45,7 +45,7 @@ nextchar:
                 ; si and di to be incremented). Extra segment
     jnz unsuccess ;(Jump on non zero)
     lea dx,msg1 ;If success load msg 1
-    jmp display ;Jump to display
+    jmp display ;Jump to display:
 
 unsuccess:
     lea dx,msg2  ;load msg2 in dx
