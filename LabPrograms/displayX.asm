@@ -11,7 +11,7 @@ start:
     int 10h ;BIOS(Basic input output system interrupt)
 
     mov ah,02h ;This is to set the cursor
-    mov dh,20d ;This sets the row
+    mov dh,12d ;This sets the row
     mov dl,40d ;This sets the character in the row.
     int 10h ;BIOS interrupt.
 
