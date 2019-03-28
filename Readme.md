@@ -1,15 +1,15 @@
 # This repository contains Lab programs for MicroProcessor laboratory in SEM 4
 ## The list of questions can be seen here:
 
-* LabPrograms
-      * Binary Seacrh
-      * Bubble Sort
-      * Pallindrome
-      * Factorial
-      * Display 'X' at the center
-      * Fibonacci series
+* Laboratory Programs
+    * Binary Seacrh
+    * Bubble Sort
+    * Pallindrome
+    * Factorial
+    * Display 'X' at the center
+    * Fibonacci series
             
-* Bullet list item 2
+* Other Programs
     * Addition Instruction Program
     * Rotate Instruction Program
 
