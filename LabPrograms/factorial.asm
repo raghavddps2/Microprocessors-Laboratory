@@ -5,7 +5,7 @@ assume cs:code,ds:data
 
 data segment
 
-    n db 5 ;Assigning the value of n as 5
+    n db 4 ;Assigning the value of n as 4
     res db ? ;factorial result will be stored here.
 
 data ends
