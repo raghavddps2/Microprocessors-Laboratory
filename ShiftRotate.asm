@@ -1,3 +1,7 @@
+;@Author: Raghav Maheshwari
+;@Date: 28th March, 2019
+;@Topic: Using shift and rotate instruction in assembly
+
 assume cs:code, ds:data
 ;This tells the assembler that we are using the small model and the code segment register points to segment named code and the 
 ;data segment register points to segment named data

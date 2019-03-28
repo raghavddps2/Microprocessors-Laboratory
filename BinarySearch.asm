@@ -1,3 +1,7 @@
+;@Author: Raghav Maheshwari
+;@Date: 28th March, 2019
+;@Topic: Binary Seacrh in assembly
+
 assume cs:code,ds:data
 
 data segment
@@ -58,7 +62,7 @@ start:
         add al,30h ;Ascii value of 0.
         mov pos,al;Store the key position in pos
         lea dx,msg2;Store success message here.
-        
+
             ;This is again a wonderful logic as to why we add 30h here, 
             ;31h, 32h etc represent 1,2,..., and we wanna display the digit and not the BCD form , hence
             ; Hence By adding 30H to BCD will Convert it to ASCII code which will print the digit (number) on screen.
