@@ -1,6 +1,6 @@
 ;@Author: Raghav Maheshwari
 ;@Date: 28th March, 2019
-;@Topic: BubbleSort.
+;@Topic: Factorial .
 assume cs:code,ds:data
 
 data segment
