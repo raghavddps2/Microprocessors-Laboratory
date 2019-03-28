@@ -28,7 +28,7 @@ start:
     ;now we already got two locations, so we need more n-2 locations.
     mov cl,n ;total numbers required
     sub cl,2 ;we need n-2 locations now
-    mov ch,00h ;So that the loop instruction can be used.
+    mov ch,00 ;So that the loop instruction can be used.
 
 nextNumber:
 
@@ -38,7 +38,8 @@ nextNumber:
     xchg al,bl ;al is supposed to be fib(n-2), so we will xchnage it 
     loop nextNumber
 
-
+    mov ah,4ch ;exit interrupt.
+    int 21h
 
 code ends
 end start
