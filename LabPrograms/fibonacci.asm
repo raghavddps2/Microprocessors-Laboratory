@@ -35,7 +35,7 @@ nextNumber:
     add al,bl ;This will add fib(n-1) and fib(n-2)
     mov [si],al ;The obtained al is moved to fibo[si]
     inc si ;si is incremented now.
-    xchg al,bl ;al is supposed to be fib(n-2), so we will xchnage it 
+     xchg al,bl ;al is supposed to be fib(n-2), so we will xchnage it 
     loop nextNumber
 
     mov ah,4ch ;exit interrupt.
