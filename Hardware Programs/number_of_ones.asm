@@ -1,3 +1,8 @@
+    ;@Author: Raghav Maheshwari
+    ;@Date: 17th May, 2019
+    ;@Topic: display number of ones.
+
+    
 assume cs:code,ds:data
 
 ;Anything in the assume model has a code segment and a data segment. 

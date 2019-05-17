@@ -1,6 +1,6 @@
     ;@Author: Raghav Maheshwari
     ;@Date: 17th May, 2019
-    ;@Topic: Rolling Message (Fire help here)
+    ;@Topic: Up down counter (0-20)
 assume cs:code, ds:data
 
 data segment

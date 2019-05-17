@@ -1,6 +1,6 @@
     ;@Author: Raghav Maheshwari
     ;@Date: 17th May, 2019
-    ;@Topic: Rolling Message (Fire help here)
+    ;@Topic: Fire help alternatively display
 
     
 assume cs:code,ds:data
