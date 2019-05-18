@@ -13,7 +13,7 @@ data segment
     pb equ 20a1h ;setting address for port B
     pc equ 20a2h ;setting address for port C
     cr equ 20a3h ;setting address for control register
-    msg equ "No. of 1's is:"  ;seeting the message to be displayed
+    msg equ "No. of 1's is: "  ;seeting the message to be displayed
     ones db ?,"$" ;variable for the number of ones.
 
 data ends
@@ -27,7 +27,7 @@ start:
     mov ds,ax ;moves ax to ds. (For the segment register, can't do directly.)
 
     mov dx,cr ;putting control register in dx
-    mov al,82h ;Define tthe cintrol word(A--output and B--input)
+    mov al,82h ;Define tthe control word(A--output and B--input)
     out dx,al ;finally initilaizes the o/p port.
      
     mov dx,pb ;putting address of port b in dx
@@ -59,7 +59,7 @@ next:
     mov al,0ffh ; if no carry, put this in al
 
 disp:
-    mov ax,pa
+    mov dx,pa
     out dx,al ;output found in A
 
 ;this exits the program
