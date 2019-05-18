@@ -62,7 +62,7 @@ disp proc
         mov al,00h
         out dx,al
 
-        pop ax ; NOw pop the ax from the stack
+        pop ax ; Now pop the ax from the stack
         ror al,1 ;for the next bit.
         loop nextbit ;Till whole 8 is covered
         pop cx
