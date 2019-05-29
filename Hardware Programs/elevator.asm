@@ -33,9 +33,6 @@ start:
     out dx,al
     mov dx,pb
 
-    mov al,00h
-
-
     scan:
         in al,dx ;we get the input in al, consider no input is given, when it is masked
         and al,0fh ;here, masking is done,with al, it comes as zero on comaprision
@@ -53,7 +50,7 @@ start:
         jmp rotate
 
     startmov:
-        mov ax,00h  
+        mov ax,0f0h
         mov dx,pa
 
 

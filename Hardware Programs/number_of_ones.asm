@@ -6,7 +6,7 @@
 assume cs:code,ds:data
 
 ;Anything in the assume model has a code segment and a data segment. 
-;The following is the code segment.
+;The following is the data segment.
 data segment
 
     pa equ 20a0h ;setting address for port A 
@@ -30,7 +30,7 @@ start:
     mov al,82h ;Define tthe control word(A--output and B--input)
     out dx,al ;finally initilaizes the o/p port.
      
-    mov dx,pb ;putting address of port b in dx
+    mov *dx,pb ;putting address of port b in dx
     in al,dx ;getting the input in the bit form in al.
 
     mov cx,8 ;(This is because as we have 8 bits.)

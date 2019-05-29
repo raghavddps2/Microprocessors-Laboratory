@@ -30,7 +30,8 @@ start:
 
     rot:
         out dx,al
-        rol al,1 ;rotate left each time
+        rol al,1 ;rotate left each time ;for clockwise(ROL) for anticlockwise (ROR
+        6)
         call delay
         loop rot
 
